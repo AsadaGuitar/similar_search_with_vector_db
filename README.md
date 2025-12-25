@@ -4,6 +4,9 @@
 1. コンテナ起動: `docker-compose up -d`
 2. モデル取得: `docker exec -it ollama ollama pull bge-m3`
    - ollamaコンテナが起動している状態で実行する。
+3. `http://localhost:6333/dashboard` でQdrant（vector db）のダッシュボードにアクセスできる。
+
+![alt text](image-3.png)
 
 
 ## ベクトルDBについて

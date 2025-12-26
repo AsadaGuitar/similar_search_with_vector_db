@@ -4,7 +4,7 @@ set -euo pipefail
 
 if [ "$#" -ne 3 ]; then
   echo "Usage: $(basename "$0") <collection_name> <limit> <prompt>" >&2
-  echo "e.g. ./similar_search.sh \"your_collection_name\" 5 \"電気で音を増幅するギター\""
+  echo "e.g. ./similar_search.sh \"your_collection_name\" 5 \"電気で音を増幅する楽器\""
   exit 1
 fi
 
